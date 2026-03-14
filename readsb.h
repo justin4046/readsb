@@ -173,8 +173,8 @@ typedef enum
     SOURCE_TISB, /* data from a TIS-B extended squitter message */
     SOURCE_ADSR, /* data from a ADS-R extended squitter message */
     SOURCE_NT, /* data from a ADS-B non transponder extended squitter message */
-    SOURCE_ADSB, /* data from a ADS-B extended squitter message */
     SOURCE_UAT, /* data from a UAT message */
+    SOURCE_ADSB, /* data from a ADS-B extended squitter message */
     SOURCE_PRIO, /* priority input */
 } datasource_t;
 
