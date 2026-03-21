@@ -2195,6 +2195,7 @@ struct aircraft *trackUpdateFromMessage(struct modesMessage *mm) {
 
     switch (mm->source) {
     case SOURCE_ADSB:
+    case SOURCE_UAT:
         message_version = &a->adsb_version;
         break;
     case SOURCE_TISB:
